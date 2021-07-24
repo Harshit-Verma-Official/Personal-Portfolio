@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+  .colorlib-education {
+    min-height: 700px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .colorlib-education {
+    min-height: 420px;
+  }
+}

@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+  .colorlib-skills {
+    min-height: 1000px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .colorlib-skills {
+    min-height: 420px;
+  }
+}

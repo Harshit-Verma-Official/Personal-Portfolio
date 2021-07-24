@@ -1,0 +1,159 @@
+@media screen and (max-width: 767px) {
+  .colorlib-contact {
+    min-height: 1200px;
+  }
+  .contacts-div {
+    min-height: 700px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .colorlib-contact {
+    min-height: 1100px;
+  }
+  .contacts-div {
+    min-height: 800px;
+  }
+}
+
+.pb-container {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+.pb-container .pb-button {
+  background: transparent;
+  border: 2px solid grey;
+  border-radius: 27px;
+  color: currentColor;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  transition: background-color 0.3s, width 0.3s, border-width 0.3s,
+    border-color 0.3s, border-radius 0.3s;
+}
+.pb-container .pb-button:hover {
+  border: 2px solid #2c98f0;
+  background-color: #2c98f0;
+}
+.pb-container .pb-button:hover span {
+  color: white;
+}
+.pb-container .pb-button span {
+  font-family: "Mukta", sans-serif;
+  display: inherit;
+  transition: opacity 0.3s 0.1s;
+  font-size: 1.1em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #282936;
+}
+.pb-container .pb-button svg {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.pb-container .pb-button svg path {
+  opacity: 0;
+  fill: none;
+}
+.pb-container .pb-button svg.pb-progress-circle {
+  animation: spin 0.9s infinite cubic-bezier(0.085, 0.26, 0.935, 0.71);
+}
+.pb-container .pb-button svg.pb-progress-circle path {
+  stroke: currentColor;
+  stroke-width: 5;
+}
+.pb-container .pb-button svg.pb-checkmark path,
+.pb-container .pb-button svg.pb-cross path {
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-width: 4;
+}
+.pb-container.disabled .pb-button {
+  cursor: not-allowed;
+}
+.pb-container.loading .pb-button {
+  width: 50px;
+  border-width: 6.5px;
+  border-color: #ddd;
+  cursor: wait;
+  background-color: transparent;
+  padding: 0;
+}
+.pb-container.loading .pb-button span {
+  transition: all 0.15s;
+  opacity: 0;
+  display: none;
+}
+.pb-container.loading .pb-button .pb-progress-circle > path {
+  transition: opacity 0.15s 0.3s;
+  opacity: 1;
+}
+.pb-container.success .pb-button {
+  border-color: #a0d468;
+  background-color: #a0d468;
+}
+.pb-container.success .pb-button span {
+  transition: all 0.15s;
+  opacity: 0;
+  display: none;
+}
+.pb-container.success .pb-button .pb-checkmark > path {
+  opacity: 1;
+}
+.pb-container.error .pb-button {
+  border-color: #ed5565;
+  background-color: #ed5565;
+}
+.pb-container.error .pb-button span {
+  transition: all 0.15s;
+  opacity: 0;
+  display: none;
+}
+.pb-container.error .pb-button .pb-cross > path {
+  opacity: 1;
+}
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+    transform-origin: center center;
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+    transform-origin: center center;
+  }
+}
+
+.error-string {
+  color: red;
+  min-height: 30px;
+}
+
+.success-message {
+  color: green;
+  min-height: 30px;
+}
+
+.colorlib-feature:hover {
+  box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.2);
+  transform: translateY(-20px);
+}
+
+.colorlib-feature {
+  transition: 0.3s;
+}
+
+.colorlib-text {
+  height: 70px;
+}
+
+.contact-link {
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+  #colorlib-counter {
+    min-height: 600px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #colorlib-counter {
+    min-height: 220px;
+  }
+}

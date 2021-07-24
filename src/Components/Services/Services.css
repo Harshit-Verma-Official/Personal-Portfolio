@@ -1,0 +1,25 @@
+/* @media only screen and (max-width: 600px) {
+  .colorlib-services {
+    min-height: 2200px;
+    background: royalblue;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .colorlib-services {
+    min-height: 900px;
+    background-color: red;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .colorlib-services {
+    min-height: 2200px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .colorlib-services {
+    min-height: 900px;
+  }
+}

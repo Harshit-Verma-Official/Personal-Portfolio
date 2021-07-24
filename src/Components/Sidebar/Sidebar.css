@@ -1,0 +1,49 @@
+#facebook__btn:hover,
+#facebook__btn:active,
+#facebook__btn:focus {
+  text-decoration: none;
+  outline: none;
+  color: #3b5998;
+}
+
+#instagram__btn:hover,
+#instagram__btn:active,
+#instagram__btn:focus {
+  text-decoration: none;
+  outline: none;
+  color: #dd2a7b;
+}
+
+#twitter__btn:hover,
+#twitter__btn:active,
+#twitter__btn:focus {
+  text-decoration: none;
+  outline: none;
+  color: #00acee;
+}
+
+#linkedin__btn:hover,
+#linkedin__btn:active,
+#linkedin__btn:focus {
+  text-decoration: none;
+  outline: none;
+  color: #0e76a8;
+}
+
+#github__btn:hover,
+#github__btn:active,
+#github__btn:focus {
+  text-decoration: none;
+  outline: none;
+  color: #211f1f;
+}
+
+#colorlib-aside::-webkit-scrollbar {
+  display: none;
+}
+
+#colorlib-aside .colorlib-footer ul li button {
+  width: 50px;
+  height: 50px;
+  padding-top: 20px;
+}

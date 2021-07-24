@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+  .colorlib-experience {
+    min-height: 1500px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .colorlib-experience {
+    min-height: 1000px;
+  }
+}
