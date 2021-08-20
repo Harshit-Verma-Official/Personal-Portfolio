@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Personal Porfolio : https://harshitcv.web.app/
+  - This is my personal portfolio to showcase my skills and personal projects.
+  - This web app is built in React.js powered with Firebase as database.
+  - Designed front-end in Material UI to have a responsive and user-friendly UI.
+  - Developed Admin Panel in React.js to alter the content of portfolio.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
